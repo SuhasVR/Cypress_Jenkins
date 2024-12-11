@@ -1,0 +1,9 @@
+variables:
+  PROJ_NAME: APPLICATIONNAME-fe-qe-automation 
+  DESC: qe
+  VERSION: 1.0.0
+
+include:
+  - project: 'SAE_DEVOPS/sae-ci-templates'
+    file: 'Node_Main_QE.yml'
+
